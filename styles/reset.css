@@ -1,0 +1,14 @@
+li {
+    list-style-type: none;
+}
+
+.product-description a{
+    display:block;
+}
+.product-features li * {
+    display: inline-block;
+}
+header nav{
+    display:inline-block;
+    float:right;
+}

@@ -1,0 +1,9 @@
+.product-description {
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.product-description *,
+.product-testimonial *,
+.product-plattforms *{
+    text-align:center;
+}
