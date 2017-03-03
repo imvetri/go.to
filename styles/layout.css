@@ -1,0 +1,26 @@
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+li {
+    list-style-type: none;
+}
+.product-description *{
+    text-align:center;
+}
+.product-description a{
+    display:block;
+}
+.product-features li * {
+    display: inline-block;
+}
+
+.product-features li{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+header nav{
+    display:inline-block;
+    float:right;
+}
