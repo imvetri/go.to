@@ -1,3 +1,7 @@
+nav a {
+    padding: 10px;
+    color: white;
+}
 .product-description *,
 .product-testimonial *,
 .product-plattforms *{
@@ -15,17 +19,19 @@
 .product-description {
     letter-spacing: 1px;
     color: #ffffff;
+    padding-top: 50px;
 }
 .product-description a.download{
     position:relative;
     color: white;
+    margin-top: 50px;
 }
 .product-description .download-links {
     position: absolute;
     top: 0px;
     left: 39.5%;
     padding-top: 60px;
-    opacity: 0;
+    opacity: 1;
     color: black;
 }
 .product-description .download-links:hover {
