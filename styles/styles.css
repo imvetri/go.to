@@ -7,3 +7,12 @@
 .product-plattforms *{
     text-align:center;
 }
+.product-features li *,
+.product-features li{
+    display: inline-block;
+    vertical-align: text-top;
+    text-align: center;
+}
+.product-features{
+    margin-top: 40vmin;
+}
