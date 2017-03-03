@@ -1,7 +1,3 @@
-.product-description {
-    letter-spacing: 1px;
-    color: #ffffff;
-}
 .product-description *,
 .product-testimonial *,
 .product-plattforms *{
@@ -15,4 +11,51 @@
 }
 .product-features{
     margin-top: 40vmin;
+}
+.product-description {
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.product-description a.download{
+    position:relative;
+    color: white;
+}
+.product-description .download-links {
+    position: absolute;
+    top: 0px;
+    left: 39.5%;
+    padding-top: 60px;
+    opacity: 0;
+    color: black;
+}
+.product-description .download-links:hover {
+    opacity: 1;
+}
+.product-description .download-links .desktop,
+.product-description .download-links .mobile {
+    float: left;
+    height: 100px;
+    padding: 15px;
+    color: grey;
+}
+.product-description .download-links .mobile
+{
+    border-left: 1px lightgrey solid;
+}
+
+.product-description .download-links .wrapper {
+    border-radius: 10px;
+    background: white;
+    height: 130px;
+}
+
+.product-description .download span {
+    background-color: #52BF48;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+    border-radius: 8px;
+    display: inline-block;
+    height: 28px;
+    width: 215px;
+    padding: 10px;
 }

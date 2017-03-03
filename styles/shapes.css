@@ -1,0 +1,26 @@
+/* arrow upwards */
+.product-description .wrapper:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+
+.product-description .download:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid lightgrey;
+    position: absolute;
+    left: 57.3%;
+    top: 34%;
+}
