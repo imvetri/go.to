@@ -26,12 +26,15 @@ nav a {
     color: white;
     margin-top: 50px;
 }
+.product-description a.download:hover span{
+    box-shadow: 0 0 15px 1px black;
+}
 .product-description .download-links {
     position: absolute;
     top: 0px;
     left: 39.5%;
     padding-top: 60px;
-    opacity: 1;
+    opacity: 0;
     color: black;
 }
 .product-description .download-links:hover {
