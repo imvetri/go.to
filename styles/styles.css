@@ -6,6 +6,7 @@ nav a {
 .product-testimonial *,
 .product-plattforms *{
     text-align:center;
+    position:relative;
 }
 .product-features li *,
 .product-features li{
@@ -34,7 +35,7 @@ nav a {
     top: 0px;
     left: 39.5%;
     padding-top: 60px;
-    opacity: 0;
+    opacity: 1;
     color: black;
 }
 .product-description .download-links:hover {
@@ -57,7 +58,9 @@ nav a {
     background: white;
     height: 130px;
 }
-
+.download-links li {
+    font-weight: bolder;
+}
 .product-description .download span {
     background-color: #52BF48;
     border-bottom: 2px solid green;

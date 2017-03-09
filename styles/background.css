@@ -6,6 +6,24 @@ body{
     background-size: contain;
 }
 
-.windows{
-    background:url("images/plattform-windows-grey.png") no-repeat;
+.windows:before{
+    background: url(images/windows-grey.png) no-repeat;
+}
+.mac:before{
+    background: url(images/apple-grey.png) no-repeat;
+}
+.chrome:before{
+    background: url(images/chrome-grey.png) no-repeat;
+}
+.windows:before,
+.mac:before,
+.chrome:before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    position: absolute;
+    left: -33px;
+    top: -3px;
 }
