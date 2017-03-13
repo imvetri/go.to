@@ -8,8 +8,8 @@
     border-right: 10px solid transparent;
     border-bottom: 10px solid white;
     position: absolute;
-    top: 50px;
-    left: 130px;
+    top: -10px;
+    left: 131px;
 }
 
 .product-description .download:before {

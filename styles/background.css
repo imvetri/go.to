@@ -15,9 +15,17 @@ body{
 .chrome:before{
     background: url(images/chrome-grey.png) no-repeat;
 }
+.android:before{
+    background: url(images/android-grey.png) no-repeat;
+}
+.iphone:before{
+    background: url(images/iphone-grey.png) no-repeat;
+}
 .windows:before,
 .mac:before,
-.chrome:before{
+.chrome:before,
+.android:before,
+.iphone:before{
     content: "";
     display: inline-block;
     width: 20px;
